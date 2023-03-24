@@ -8,15 +8,66 @@
 ol,
 ul {
     list-style: none;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 1320px;
 }
 
 .first-block{
-    height: 800px;
-    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%)
-    
+    padding-top: 56px;
+   padding-bottom: 800px;
+    background: 
+    url(../images/symbol.svg) no-repeat center bottom,
+    url(../images/pattern2.svg) no-repeat center bottom,
+    url(../images/Shade.png) repeat-x center bottom,
+    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%) 
     ;
+   
+}
+
+.item{
+    display: inline-block;
+}
+
+.header-logo{
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.header-languages{
+    margin-left: 522px;
+}
+
+.header-adress{}
+
+.dot{}
+
+.header-phone{}
+
+
+.dot2{}
+
+.facebook-logo{}
+
+
+.menu{
+    margin-left: 665px;
+}
+
+
+.menu-item{
+    display: inline-block;
+}
+
+.second-block{
+    background:  linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) ;
+    padding-bottom: 1374px;
+  
 }
