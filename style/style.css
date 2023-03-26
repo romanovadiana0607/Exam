@@ -18,18 +18,32 @@ a {
 
 .container{
     max-width: 1320px;
+    margin-left: 60px;
+   
 }
+
+
+.wrap{
+     display: flex;
+    flex-direction: row; 
+    /* flex-wrap: wrap; */
+  
+  
+}
+
+
 
 .first-block{
     padding-top: 56px;
-   padding-bottom: 800px;
+   padding-bottom: 35px;
     background: 
+    url(../images/Shade.png) repeat-x center bottom,
     url(../images/symbol.svg) no-repeat center bottom,
     url(../images/pattern2.svg) no-repeat center bottom,
-    url(../images/Shade.png) repeat-x center bottom,
+   
     linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%) 
     ;
-   
+   max-width: 1440px;
 }
 
 .item{
@@ -37,37 +51,185 @@ a {
 }
 
 .header-logo{
-    margin-left: 60px;
     display: inline-block;
 }
 
 .header-languages{
-    margin-left: 522px;
+    margin-left: 550px;
+   
 }
 
-.header-adress{}
+.header-adress{
+    margin-left: 22px;
+    color: white;
+}
 
-.dot{}
+.dot{
+    margin-left: 13px;
+}
 
-.header-phone{}
+.header-phone{
+    margin-left: 32px;
+}
 
 
-.dot2{}
+.dot2{
+    margin-left: 10px;
+}
 
-.facebook-logo{}
+.facebook-logo{
+    margin-left: 10px;
+}
 
 
 .menu{
-    margin-left: 665px;
+    margin-left: 740px;
+    margin-top: 19px;
 }
 
 
 .menu-item{
-    display: inline-block;
+    display: inline-block; 
+    margin-left: 15px;
+   
+   
 }
+
+.first-block_text{
+margin-top: 240px;
+text-align: center;
+
+}
+
+.first-block_text h1{
+    color: white;
+    font: size 38px;   
+    /* font-weight: ; */
+}
+
+.scroll{
+    margin-top: 290px;
+    text-align: center;
+}
+
+
 
 .second-block{
     background:  linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) ;
-    padding-bottom: 1374px;
+  padding-bottom: 80px;
+    max-width: 1440px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   
+}
+
+.lawyers{
+    margin-left: 100px; 
+    margin-top: 80px;
+}
+
+.second-block_wrap{
+    display: flex; 
+    flex-direction: column;
+    align-items: end;
+   
+     /* max-width: 550px;   */
+}
+   
+
+
+   
+
+
+
+.stick{
+    margin-left: 40px;  
+    margin-top: 80px;
+}
+
+
+.law-services{
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+.second-block_block{
+    display: flex;
+    align-items: flex-start;
+}
+
+.law-services_heading h2{
+    color: white;
+}
+
+.law-services_text{
+    margin-top: 20px;
+}
+
+.law-services_text p{
+color: white;
+}
+
+.services-image_andvector{
+    margin-top: 80px;
+}
+
+.services-image{
+display: inline-block;
+}
+
+
+
+.servives-vector{
+    display: inline-block;
+}
+
+.whatwecando{
+    margin-top: 3px;
+}
+
+
+
+
+
+.squares-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.individual-squares_wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.individual-squares_block{
+    margin-top: 68px;
+}
+
+
+.squares-heading{
+    margin-top: 20px;
+}
+
+.squares-text{
+    margin-top: 15px;
+}
+
+.individual-squares_block{
+    margin-left: 40px;
+}
+
+.first-individual{
+    margin-left: 0;
+}
+
+
+
+
+
+.shades-block{
+    display: flex;
+    flex-direction: column;
+    
+
 }
