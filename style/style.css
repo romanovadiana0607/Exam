@@ -22,6 +22,10 @@ a {
    
 }
 
+.block{
+max-width:1440px ;
+}
+
 
 .wrap{
      display: flex;
@@ -30,6 +34,8 @@ a {
   
   
 }
+
+
 
 
 
@@ -83,7 +89,7 @@ a {
 
 
 .menu{
-    margin-left: 740px;
+    margin-left: 700px;
     margin-top: 19px;
 }
 
@@ -240,8 +246,18 @@ display: inline-block;
     margin-top: 20px;
 }
 
+.squares-heading h3{
+    color: #24A3FF;
+}
+
 .squares-text{
     margin-top: 15px;
+    
+}
+
+.squares-text p{
+color: white;
+
 }
 
 .individual-squares_block{
@@ -253,6 +269,78 @@ display: inline-block;
 }
 
 
+.clients-block{
+    margin-top: 50px;
+}
 
 
 
+.clients-wrap{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+footer{
+    padding: 30px 0 40px 0;
+    background: #E5E5E5;
+}
+.footer-block2{
+    margin-top: 30px;
+}
+
+.footer-wrap1{
+display: flex;
+flex-direction: row;
+}
+
+
+.footer-wrap2{
+display: flex;
+flex-direction: row;
+}
+
+
+.footer-dot1{
+    margin-left: 31px;
+}
+
+.map{
+    margin-left: 10px;
+}
+
+
+.footer-2021{
+    margin-left: 520px;
+}
+
+
+.footer-dot2{
+    margin-left: 10px;
+}
+
+.footer-phone{
+    margin-left: 32px;
+    
+}
+
+.footer-phone a{
+    color: #46466E;
+}
+
+.footer-dot3{
+    margin-left: 10px;
+}
+
+.email{
+    margin-left: 10px;
+   
+}
+
+.email a{
+    color: #24A3FF;
+}
