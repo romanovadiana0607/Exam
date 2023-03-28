@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'TTNormsThin';
+    src: url('../fonts/TTNormsThin.eot');
+    src: url('../fonts/TTNormsThin.eot') format('embedded-opentype'),
+         url('../fonts/TTNormsThin.woff2') format('woff2'),
+         url('../fonts/TTNormsThin.woff') format('woff'),
+         url('../fonts/TTNormsThin.ttf') format('truetype'),
+         url('../fonts/TTNormsThin.svg#TTNormsThin') format('svg');
+}
+
+
+@font-face {
+    font-family: 'TTNormsProRegular';
+    src: url('../fonts/TTNormsProRegular.eot');
+    src: url('../fonts/TTNormsProRegular.eot') format('embedded-opentype'),
+         url('../fonts/TTNormsProRegular.woff2') format('woff2'),
+         url('../fonts/TTNormsProRegular.woff') format('woff'),
+         url('../fonts/TTNormsProRegular.ttf') format('truetype'),
+         url('../fonts/TTNormsProRegular.svg#TTNormsProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'TTNormsProMedium';
+    src: url('../fonts/TTNormsProMedium.eot');
+    src: url('../fonts/TTNormsProMedium.eot') format('embedded-opentype'),
+         url('../fonts/TTNormsProMedium.woff2') format('woff2'),
+         url('../fonts/TTNormsProMedium.woff') format('woff'),
+         url('../fonts/TTNormsProMedium.ttf') format('truetype'),
+         url('../fonts/TTNormsProMedium.svg#TTNormsProMedium') format('svg');
+}
+
+
+@font-face {
+    font-family: 'TTNormsProBold';
+    src: url('../fonts/TTNormsProBold.eot');
+    src: url('../fonts/TTNormsProBold.eot') format('embedded-opentype'),
+         url('../fonts/TTNormsProBold.woff2') format('woff2'),
+         url('../fonts/TTNormsProBold.woff') format('woff'),
+         url('../fonts/TTNormsProBold.ttf') format('truetype'),
+         url('../fonts/TTNormsProBold.svg#TTNormsProBold') format('svg');
+}
