@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 ol,
@@ -19,7 +18,7 @@ a {
 
 .container{
     max-width: 1320px;
-    margin-left: 60px;
+    margin: 0 auto;
    
 }
 
@@ -27,17 +26,17 @@ a {
 max-width:1440px ;
 }
 
-
 .wrap{
-     display: flex;
-    flex-direction: row; 
-    /* flex-wrap: wrap; */
-  
-  
+    display: flex;
 }
 
 
-
+.fisrt-wrap{
+     display: flex;
+    flex-direction: row; 
+   
+   justify-content: space-between;
+}
 
 
 .first-block{
@@ -54,16 +53,22 @@ max-width:1440px ;
 }
 
 .item{
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .header-logo{
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .header-languages{
-    margin-left: 550px;
+    /* margin-left: 550px; */
    
+}
+
+.other-items{
+    display: flex;
+   
+   justify-content: space-between;
 }
 
 .header-adress{
@@ -90,7 +95,7 @@ max-width:1440px ;
 
 
 .menu{
-    margin-left: 700px;
+   
     margin-top: 19px;
 }
 
@@ -274,8 +279,12 @@ color: white;
     margin-top: 50px;
 }
 
-
-
+.clients-item{
+    width: 25%;
+}
+.clients-item img{
+    width: 100%;
+}
 .clients-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -296,32 +305,40 @@ footer{
 
 .footer-wrap1{
 display: flex;
-flex-direction: row;
+justify-content: space-between;
+
 }
 
 
 .footer-wrap2{
 display: flex;
 flex-direction: row;
+
 }
 
 
 .footer-dot1{
-    margin-left: 31px;
+    margin-left: 31px; 
+    display: inline-block;
 }
 
 .map{
     margin-left: 10px;
+    display: inline-block;
 }
 
+.adress{
+    display: inline-block;
+}
 
 .footer-2021{
-    margin-left: 520px;
+    /* margin-left: 520px; */
 }
 
 
 .footer-dot2{
     margin-left: 10px;
+   
 }
 
 .footer-phone{
@@ -347,3 +364,141 @@ flex-direction: row;
 }
 
 
+.item-wrap{
+    display: flex;
+    background: #F5F5FA;
+    border-radius: 25px;
+}
+
+.carousel{
+    margin-top: 61px;
+}
+
+
+
+.carousel-comand p{
+    display: inline-block;
+}
+.carousel-comand img{
+    display: inline-block;
+}
+
+
+.carousel-text{
+    margin-left: 40px;
+}
+
+
+
+
+
+--------------------------------------------------
+
+
+
+
+
+.about-header{
+    padding: 51px 0 0 0;
+
+}
+
+.about-adress p{
+    color: #B3B3BA;
+}
+
+.about-phone a{
+    color: #B3B3BA;
+}
+
+.about-menu_first a{
+    color:#F0145A ;
+}
+
+.about-menu a{
+    color:#24A3FF;
+}
+
+.about-lawyers_heading h3{
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 42px;
+}
+
+.about-lawyers_text p{
+    font-size: 21px;
+}
+
+.about-2_wrap{
+    align-items: start;
+}
+
+.about-law_services{
+    margin-top: 82px;
+}
+.about-lawyers_heading{
+    margin-left: 0;
+}
+
+
+
+.pic-section{
+background: url(../images/about-big.png);
+padding: 162px 0 162px 0;
+margin-top: 100px;
+}
+ 
+.about-team-text{
+text-align: center;
+
+}
+
+
+
+.about-team-text p{
+    font-size: 
+    96px;
+    color: white;
+    letter-spacing: 63px;
+text-transform: uppercase;
+text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+}
+
+.about-third_section{
+    padding: 80px 0 83px 0;
+}
+
+
+.about-3_text{ 
+    margin-left: 100px;
+}
+.about-3_text p{
+    font-size: 21px;
+    color: black;
+}
+
+.about-3_heading{
+margin-left: 40px;
+}
+
+.about-3_heading h3{
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 42px;
+}
+
+.about-achivements_section{
+    background: #F5F5FA;
+border-radius: 12px 12px 0px 0px;
+padding: 28px 60px 30px 60px;
+}
+.achievements-heading{
+    text-align: center;
+}
+.achievements-wrap{
+justify-content: space-around;
+}
