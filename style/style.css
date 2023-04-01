@@ -1,4 +1,5 @@
 @import url('./fonts.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,133 +17,121 @@ a {
     color: white;
 }
 
-.container{
+.container {
     max-width: 1320px;
     margin: 0 auto;
-   
+
 }
 
-.block{
-max-width:1440px ;
+.block {
+    max-width: 1440px;
 }
 
-.wrap{
+.wrap {
     display: flex;
 }
 
 
-.fisrt-wrap{
-     display: flex;
-    flex-direction: row; 
-   
-   justify-content: space-between;
+.first-wrap {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
 }
 
 
-.first-block{
+.first-block {
     padding-top: 56px;
-   padding-bottom: 35px;
-    background: 
-    url(../images/Shade.png) repeat-x center bottom,
-    url(../images/symbol.svg) no-repeat center bottom,
-    url(../images/pattern2.svg) no-repeat center bottom,
-   
-    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%) 
-    ;
-   max-width: 1440px;
+    padding-bottom: 35px;
+    background:
+        url(../images/Shade.png) repeat-x center bottom,
+        url(../images/symbol.svg) no-repeat center bottom,
+        url(../images/pattern2.svg) no-repeat center bottom,
+
+        linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    max-width: 1440px;
 }
 
-.item{
-    /* display: inline-block; */
-}
 
-.header-logo{
-    /* display: inline-block; */
-}
 
-.header-languages{
-    /* margin-left: 550px; */
-   
-}
-
-.other-items{
+.other-items {
     display: flex;
-   
-   justify-content: space-between;
+
+    justify-content: space-between;
 }
 
-.header-adress{
+.header-adress {
     margin-left: 22px;
     color: white;
 }
 
-.dot{
+.dot {
     margin-left: 13px;
 }
 
-.header-phone{
+.header-phone {
     margin-left: 32px;
 }
 
 
-.dot2{
+.dot2 {
     margin-left: 10px;
 }
 
-.facebook-logo{
+.facebook-logo {
     margin-left: 10px;
 }
 
 
-.menu{
-   
+.menu {
+
     margin-top: 19px;
 }
 
 
-.menu-item{
-    display: inline-block; 
+.menu-item {
+    display: inline-block;
     margin-left: 15px;
-   
-   
-}
 
-.first-block_text{
-margin-top: 240px;
-text-align: center;
 
 }
 
-.first-block_text h1{
+.first-block_text {
+    margin-top: 240px;
+    text-align: center;
+
+}
+
+.first-block_text h1 {
     color: white;
-    font: size 38px;   
+    font: size 38px;
     /* font-weight: ; */
 }
 
-.scroll{
+.scroll {
     margin-top: 290px;
     text-align: center;
 }
 
 
 
-.second-block{
-    background:  linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) ;
-  padding-bottom: 80px;
+.second-block {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    padding-bottom: 80px;
     max-width: 1440px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-position: relative;
-  
-}
-
-.first-section{
     position: relative;
 
 }
 
-.first-section::before{
-    content:'';
+.first-section {
+    position: relative;
+
+}
+
+.first-section::before {
+    content: '';
     position: absolute;
     bottom: -10px;
     width: 100%;
@@ -151,8 +140,8 @@ position: relative;
     background-size: 98%;
 }
 
-.first-section::after{
-    content:'';
+.first-section::after {
+    content: '';
     position: absolute;
     bottom: -20px;
     width: 100%;
@@ -164,68 +153,68 @@ position: relative;
 
 
 
-.lawyers{
-    margin-left: 100px; 
+.lawyers {
+    margin-left: 100px;
     margin-top: 80px;
 }
 
-.second-block_wrap{
-    display: flex; 
+.second-block_wrap {
+    display: flex;
     flex-direction: column;
     align-items: end;
-   
-     /* max-width: 550px;   */
+
+    /* max-width: 550px;   */
 }
-   
-
-
-   
 
 
 
-.stick{
-    margin-left: 40px;  
+
+
+
+
+.stick {
+    margin-left: 40px;
     margin-top: 80px;
 }
 
 
-.law-services{
+.law-services {
     margin-left: 40px;
     margin-top: 130px;
 }
 
-.second-block_block{
+.second-block_block {
     display: flex;
     align-items: flex-start;
 }
 
-.law-services_heading h2{
+.law-services_heading h2 {
     color: white;
 }
 
-.law-services_text{
+.law-services_text {
     margin-top: 20px;
 }
 
-.law-services_text p{
-color: white;
+.law-services_text p {
+    color: white;
 }
 
-.services-image_andvector{
+.services-image_andvector {
     margin-top: 80px;
 }
 
-.services-image{
-display: inline-block;
-}
-
-
-
-.servives-vector{
+.services-image {
     display: inline-block;
 }
 
-.whatwecando{
+
+
+.servives-vector {
+    display: inline-block;
+}
+
+.whatwecando {
     margin-top: 3px;
 }
 
@@ -233,59 +222,61 @@ display: inline-block;
 
 
 
-.squares-wrap{
+.squares-wrap {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
-.individual-squares_wrap{
+.individual-squares_wrap {
     display: flex;
     flex-direction: column;
 }
 
-.individual-squares_block{
+.individual-squares_block {
     margin-top: 68px;
 }
 
 
-.squares-heading{
+.squares-heading {
     margin-top: 20px;
 }
 
-.squares-heading h3{
+.squares-heading h3 {
     color: #24A3FF;
 }
 
-.squares-text{
+.squares-text {
     margin-top: 15px;
-    
-}
-
-.squares-text p{
-color: white;
 
 }
 
-.individual-squares_block{
+.squares-text p {
+    color: white;
+
+}
+
+.individual-squares_block {
     margin-left: 40px;
 }
 
-.first-individual{
+.first-individual {
     margin-left: 0;
 }
 
 
-.clients-block{
+.clients-block {
     margin-top: 50px;
 }
 
-.clients-item{
+.clients-item {
     width: 25%;
 }
-.clients-item img{
+
+.clients-item img {
     width: 100%;
 }
-.clients-wrap{
+
+.clients-wrap {
     display: flex;
     flex-wrap: wrap;
 
@@ -295,210 +286,405 @@ color: white;
 
 
 
-footer{
+footer {
     padding: 30px 0 40px 0;
     background: #E5E5E5;
 }
-.footer-block2{
+
+.footer-block2 {
     margin-top: 30px;
 }
 
-.footer-wrap1{
-display: flex;
-justify-content: space-between;
+.footer-wrap1 {
+    display: flex;
+    justify-content: space-between;
 
 }
 
 
-.footer-wrap2{
-display: flex;
-flex-direction: row;
+.footer-wrap2 {
+    display: flex;
+    flex-direction: row;
 
 }
 
 
-.footer-dot1{
-    margin-left: 31px; 
+.footer-dot1 {
+    margin-left: 31px;
     display: inline-block;
 }
 
-.map{
+.map {
     margin-left: 10px;
     display: inline-block;
 }
 
-.adress{
+.adress {
     display: inline-block;
 }
 
-.footer-2021{
-    /* margin-left: 520px; */
-}
 
 
-.footer-dot2{
+
+.footer-dot2 {
     margin-left: 10px;
-   
+
 }
 
-.footer-phone{
+.footer-phone {
     margin-left: 32px;
-    
+
 }
 
-.footer-phone a{
+.footer-phone a {
     color: #46466E;
 }
 
-.footer-dot3{
+.footer-dot3 {
     margin-left: 10px;
 }
 
-.email{
+.email {
     margin-left: 10px;
-   
+
 }
 
-.email a{
+.email a {
     color: #24A3FF;
 }
 
 
-.item-wrap{
+.item-wrap {
     display: flex;
     background: #F5F5FA;
     border-radius: 25px;
 }
 
-.carousel{
+.carousel {
     margin-top: 61px;
 }
 
 
 
-.carousel-comand p{
+.carousel-comand p {
     display: inline-block;
 }
-.carousel-comand img{
+
+.carousel-comand img {
     display: inline-block;
 }
 
 
-.carousel-text{
+.carousel-text {
     margin-left: 40px;
 }
 
+.s p {
+    color: white;
+}
 
 
 
 
---------------------------------------------------
+/* -------------------------------------------------- */
 
 
 
 
 
-.about-header{
+.about-header {
     padding: 51px 0 0 0;
 
 }
 
-.about-adress p{
+.about-adress p {
     color: #B3B3BA;
 }
 
-.about-phone a{
+.about-phone a {
     color: #B3B3BA;
 }
 
-.about-menu_first a{
-    color:#F0145A ;
+.about-menu_first a {
+    color: #F0145A;
 }
 
-.about-menu a{
-    color:#24A3FF;
+.about-menu a {
+    color: #24A3FF;
 }
 
-.about-lawyers_heading h3{
+.about-lawyers_heading h3 {
     background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-font-size: 42px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 42px;
 }
 
-.about-lawyers_text p{
+.about-lawyers_text p {
     font-size: 21px;
 }
 
-.about-2_wrap{
+.about-2_wrap {
     align-items: start;
 }
 
-.about-law_services{
+.about-law_services {
     margin-top: 82px;
 }
-.about-lawyers_heading{
+
+.about-lawyers_heading {
     margin-left: 0;
 }
 
 
 
-.pic-section{
-background: url(../images/about-big.png);
-padding: 162px 0 162px 0;
-margin-top: 100px;
-}
- 
-.about-team-text{
-text-align: center;
-
+.pic-section {
+    background: url(../images/about-big.png);
+    padding: 162px 0 162px 0;
+    margin-top: 100px;
 }
 
+.about-team-text {
+    text-align: center;
+
+}
 
 
-.about-team-text p{
-    font-size: 
-    96px;
+
+.about-team-text p {
+    font-size:
+        96px;
     color: white;
     letter-spacing: 63px;
-text-transform: uppercase;
-text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    text-transform: uppercase;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
 }
 
-.about-third_section{
+.about-third_section {
     padding: 80px 0 83px 0;
 }
 
 
-.about-3_text{ 
+.about-3_text {
     margin-left: 100px;
 }
-.about-3_text p{
+
+.about-3_text p {
     font-size: 21px;
     color: black;
 }
 
-.about-3_heading{
-margin-left: 40px;
+.about-3_heading {
+    margin-left: 40px;
 }
 
-.about-3_heading h3{
+.about-3_heading h3 {
     background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-font-size: 42px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 42px;
 }
 
-.about-achivements_section{
+.about-achivements_section {
     background: #F5F5FA;
-border-radius: 12px 12px 0px 0px;
-padding: 28px 60px 30px 60px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 28px 60px 30px 60px;
 }
-.achievements-heading{
+
+.achievements-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.achievements-wrap {
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.pagination {
     text-align: center;
 }
-.achievements-wrap{
-justify-content: space-around;
+
+/* ----------------------------------------- */
+
+.services-first_section {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+
+}
+
+.services-first_heading {
+    margin-top: 77px;
+}
+
+.services-first_heading h3 {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+
+    font-size: 42px;
+
+}
+
+
+.bottom-squares_block {
+    padding-bottom: 48px;
+}
+
+.services-header {
+    padding-top: 50px;
+}
+
+
+
+
+
+/* ----------------------------------------- */
+
+
+.team-heading {
+    margin-top: 82px;
+    margin-left: 215px;
+}
+
+.team-heading h3 {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+    font-size: 42px;
+}
+
+.team-photo_block {
+    width: 413px;
+    margin-bottom: 40px;
+}
+
+.team-text {
+    margin-top: 20px;
+}
+
+.team-photos_wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-text-wrap {
+    justify-content: space-between;
+}
+
+.team-photos_section {
+    padding: 30px 0 60px 0;
+}
+
+.first-p {
+    color: #323264;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.second-p {
+    font-size: 16px;
+    color: #B3B3BA;
+}
+
+.link{
+    display: inline-block;
+}
+.team-member_heading{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.team-member_heading h3{
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 42px;
+}
+
+.tm-position{
+
+}
+
+.tm-position p{
+    color: #B3B3BA;
+}
+
+.tm-email a{
+    color: #24A3FF;
+    font-weight: 400;
+font-size: 16px;
+}
+
+.tm-email{
+
+}
+
+.tm-dot {
+
+}
+
+.tm-linkedin{
+
+}
+.tm-linkedin a{
+    color: #24A3FF;
+    font-weight: 400;
+font-size: 16px;
+}
+
+.tm-stick{
+    margin: 20px 0 40px 0;
+}
+
+.tm-first_heading{
+margin: 40px 0 10px 0;
+}
+
+.tm-first_heading h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.tm-second_paragraph p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tn-second_heading{
+margin: 40px 0 10px 0;
+}
+
+.tn-second_heading h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.tm-third_paragraph p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.team-member_text{
+    margin-left: 41px;
+}
+
+.tm-first_paragraph{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.team-member_section{
+    padding-bottom: 80px;
+    padding-top: 82px;
 }
