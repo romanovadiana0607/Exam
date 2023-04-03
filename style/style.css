@@ -688,3 +688,128 @@ margin: 40px 0 10px 0;
     padding-bottom: 80px;
     padding-top: 82px;
 }
+
+
+
+/* ------------------------------------------------------------- */
+
+
+
+
+
+.services-page_block1{
+    background: url(../images/servive-page-bg.png) top no-repeat;
+    background-size: 100%;
+   
+}
+
+.services-page_block2{
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) bottom;
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+.sv-square_pic{
+    margin-top: 52px;
+    text-align: center;
+}
+
+.service-text_items{
+    margin: 20px 0;
+    text-align: center;
+}
+.service-text_items h3{
+    font-size: 42px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+}
+
+.sv-text1{
+    text-align: center;
+}
+
+.sv-text1 p{
+    font-size: 21px;
+    color: white;
+}
+
+.sv-text2{
+margin: 0 0 94 px 0;
+text-align: center;
+}
+
+
+.sv-text2 p{
+    font-size: 21px;
+    color: white;
+}
+
+
+.service-page_separator{
+    margin: 80px 0 20px 0;
+    text-align: center;
+}
+
+
+.sp-menu_items{
+   list-style-image: url(../images/pink-dot.png);
+   
+}
+
+.sp-menu_wrap{
+    justify-content:space-around;
+}
+
+.sp-menu_items li{
+    margin-top: 20px;
+    font-size: 18px;    
+}
+
+
+.sp-menu-heading h3{
+    font-size: 24px;    
+    color: #FFFFFF;
+}
+
+.sp-menu-heading {
+margin-left: 105px;
+}
+
+.sp-menu1{
+    margin-bottom: 80px;
+}
+
+
+.sp-menu2{
+    margin-bottom: 80px;
+}
+
+
+.btn{
+    padding: 16px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+   display: inline-block;
+   text-align: center;
+   margin-left: 520px;
+}
+
+.carousel-heading h3{
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-size: 42px;
+
+}
+
+.carousel-comand p{
+    color: #24A3FF;
+    font-size: 14px;
+}
