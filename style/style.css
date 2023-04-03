@@ -699,7 +699,7 @@ margin: 40px 0 10px 0;
 
 .services-page_block1{
     background: url(../images/servive-page-bg.png) top no-repeat;
-    background-size: 100%;
+    background-size: cover;
    
 }
 
@@ -715,7 +715,7 @@ margin: 40px 0 10px 0;
 }
 
 .service-text_items{
-    margin: 20px 0;
+  
     text-align: center;
 }
 .service-text_items h3{
